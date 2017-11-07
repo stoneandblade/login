@@ -1,15 +1,19 @@
 {
-  "name": "login",
-  "version": "1.0.0",
+  "name": "@stoneandblade/login",
+  "version": "0.0.1",
   "description": "A basic login module for logging users in and out of a system",
   "main": "lib/login.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "author": "Kalen Gibbons <kalen@stoneandblade.com> (http://stoneandblade.com)",
   "license": "ISC",
   "dependencies": {
+    "@stoneandblade/utils": "0.0.1",
     "bcrypt-nodejs": "0.0.3",
     "mongoose": "^4.13.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0"
   }
 }
