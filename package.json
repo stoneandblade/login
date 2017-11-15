@@ -5,7 +5,7 @@
   "main": "lib/login.js",
   "scripts": {
     "test": "jasmine",
-    "publish": "npm version patch && npm publish"
+    "publish-to-npm": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
