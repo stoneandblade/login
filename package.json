@@ -4,12 +4,17 @@
   "description": "A basic login module for logging users in and out of a system",
   "main": "lib/login.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "publish": "npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoneandblade/login.git"
   },
   "author": "Kalen Gibbons <kalen@stoneandblade.com> (http://stoneandblade.com)",
   "license": "ISC",
   "dependencies": {
-    "@stoneandblade/utils": "0.0.1",
+    "@stoneandblade/utils": "*",
     "bcrypt-nodejs": "0.0.3",
     "mongoose": "^4.13.0"
   },
