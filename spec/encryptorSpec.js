@@ -1,5 +1,5 @@
 
-describe( "encryptor", () => {
+describe( 'encryptor', () => {
 	
 	let encryptor =			require( '../lib/encryptor' );
 	let testPassword =		'abcdefghijk';
